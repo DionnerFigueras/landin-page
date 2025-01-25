@@ -30,10 +30,11 @@ const Footer: React.FC = () => {
     </div>
     <div className="">
         <ul className="flex justify-between items-center text-white text-lg font-semibold gap-8">
-            <li><a href="#"></a>Productos</li>
-            <li><a href="#"></a>Servicios</li>
-            <li><a href="#"></a>Planes</li>
-            <li><a href="#"></a>Sobre Nosotros</li>
+        <a href="#productos"><li>Productos</li></a>
+        <a href="#servicios"><li>Servicios</li></a>
+        <a href="#planes"><li>Planes</li></a>
+        <a href="#nosotros"><li>Sonbre Nosotros</li></a>
+
         </ul>
     </div>
     <p className="text-white text-xl font-bold text-center md:text-start">Todos los derechos reservalos para Bienestar Digital</p>
